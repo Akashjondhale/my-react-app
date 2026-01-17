@@ -2,7 +2,7 @@ import axios from "axios";
 import type { Student, ApiResponse } from "../model/Student";
 
 const API_URL = "https://localhost:7124/api/students";
-
+//akash
 // Get all students
 export const StudentData = async (): Promise<Student[]> => {
   const response = await axios.get<ApiResponse<Student[]>>(
